@@ -4,6 +4,7 @@ package com.shop.entity;
 import com.shop.constant.ItemSellStatus;
 import com.shop.dto.ItemFormDto;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
@@ -14,6 +15,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @ToString
+@RequiredArgsConstructor
 public class Item extends BaseEntity {
 
     @Id
