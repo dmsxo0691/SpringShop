@@ -101,4 +101,11 @@ public class ItemController {
         return "item/itemMng";
     }
     // 한 페이지 당 총 3개의 상품만 보여줌
+
+    @GetMapping(value = "/item/{itemId}")
+    public String itemDtl(Model model, @PathVariable("itemId") Long itemId){
+        ItemFormDto itemFormDto = itemService.getItemDtl(itemId);
+        model.addAttribute("item", itemFormDto);
+        return "item/itemDtl";
+    }
 }
