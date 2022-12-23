@@ -18,7 +18,7 @@
 
             var url = "/order/" + orderId + "/cancel";
             var paramData = {
-                orderId : orderId,
+                orderId : orderId, // 취소할 주문 번호를 파라미터로 넘겨줌
             };
 
             var param = JSON.stringify(paramData);
@@ -34,7 +34,7 @@
                 },
                 dataType : "json",
                 cache   : false,
-                success  : function(result, status){
+                success  : function(result, status){ // 주문이 정상적으로 취소되면 현재 페이지로 redirect
                     alert("주문이 취소 되었습니다.");
                     location.href='/orders/' + [[${page}]];
                 },
@@ -94,7 +94,7 @@
     <div th:each="order : ${orders.getContent()}">
 
         <div class="d-flex mb-3 align-self-center">
-            <h4 th:text="${order.orderDate} + ' 주문'"></h4>
+            <h4 th:text="${order.orderDate} + '주문'"></h4>
             <div class="ml-3">
                 <th:block th:if="${order.orderStatus == T(com.shop.constant.OrderStatus).ORDER}">
                     <button type="button" class="btn btn-outline-secondary" th:value="${order.orderId}" onclick="cancelOrder(this.value)">주문취소</button>
@@ -125,13 +125,13 @@
         <ul class="pagination justify-content-center">
 
             <li class="page-item" th:classappend="${orders.number eq 0}?'disabled':''">
-                <a th:href="@{'/orders/' + ${orders.number-1}}" aria-label='Previous' class="page-link">
+                <a th:href="@{'/orders/' + ${orders.number -1}}" aria-label='Previous' class="page-link">
                     <span aria-hidden='true'>Previous</span>
                 </a>
             </li>
 
-            <li class="page-item" th:each="page: ${#numbers.sequence(start, end)}" th:classappend="${orders.number eq page-1}?'active':''">
-                <a th:href="@{'/orders/' + ${page-1}}" th:inline="text" class="page-link">[[${page}]]</a>
+            <li class="page-item" th:each="page: ${#numbers.sequence(start, end)}" th:classappend="${orders.number eq page -1}?'active':''">
+                <a th:href="@{'/orders/' + ${page -1}}" th:inline="text" class="page-link">[[${page}]]</a>
             </li>
 
             <li class="page-item" th:classappend="${orders.number+1 ge orders.totalPages}?'disabled':''">
