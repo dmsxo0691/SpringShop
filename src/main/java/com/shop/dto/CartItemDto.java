@@ -16,4 +16,6 @@ public class CartItemDto {
 
     @Min(value = 1, message = "최소 1개 이상 담아주세요")
     private int count;
+    // 상품 상세 페이지에서 상품의 수량을 클릭하고 '장바구니 담기'를 클릭하면
+    // 상품 id 와 수량을 controller 에 전달하게 됨, 이를 받을 dto 객체를 만듦
 }
