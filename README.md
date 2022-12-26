@@ -11,6 +11,8 @@
 
 - 📫 Email **dmsxo0691@gmail.com**
 
+![Title - Chrome 2022-12-26 10-38-40 (1)](https://user-images.githubusercontent.com/110580287/209490808-896c3f92-53b3-4876-b4d2-b48985eaa53e.gif)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://instagram.com/siwol_l" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="siwol_l" height="30" width="40" /></a>
