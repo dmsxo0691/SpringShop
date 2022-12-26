@@ -7,7 +7,7 @@
 
 - 💬 about Project 2 **해당 프로젝트는 Spring-Boot를 활용한 쇼핑몰 웹입니다.**
 
-- 👨‍💻 All of my projects : [-](-)
+- 👨‍💻 All of my projects : [Github](https://github.com/dmsxo0691)
 
 - 📫 Email **dmsxo0691@gmail.com**
 
