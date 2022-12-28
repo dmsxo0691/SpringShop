@@ -9,7 +9,7 @@
 
 - 💬 about Project 3 **개발 기간: 1개월 / 제작 인원: 1명**
 
-- 💬 about Project 3 **핵심 기능: MVC, REST API 구조 기반 게시글 및 댓글 CURD, 게시글 페이징**
+- 💬 about Project 4 **핵심 기능: MVC, REST API 구조 기반 게시글 및 댓글 CURD, 게시글 페이징**
 
 - 👨‍💻 All of my projects : [Github](https://github.com/dmsxo0691)
 
