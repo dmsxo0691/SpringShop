@@ -7,6 +7,10 @@
 
 - 💬 about Project 2 **해당 프로젝트는 Spring-Boot를 활용한 쇼핑몰 웹입니다.**
 
+- 💬 about Project 3 **개발 기간: 1개월 / 제작 인원: 1명**
+
+- 💬 about Project 3 **핵심 기능: MVC, REST API 구조 기반 게시글 및 댓글 CURD, 게시글 페이징**
+
 - 👨‍💻 All of my projects : [Github](https://github.com/dmsxo0691)
 
 - 📫 Email **dmsxo0691@gmail.com**
